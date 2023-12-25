@@ -1,6 +1,24 @@
-nav a{
+/* nav a{
   margin-right: 15px;
   font-size:30px;
   color: green;
   font-size: xx-large;
+} */
+
+nav {
+  background-color: #333333; /* Set the background color of the header */
+  padding: 25px; /* Add some padding for better visual appeal */
+  text-align: center; /* Center the navigation links */
+  width: auto;
+}
+
+nav a {
+  color: white; /* Set the text color of the navigation links */
+  text-decoration: none; /* Remove underlines from the links */
+  margin: 0 25px; /* Add some margin to separate the links */
+  font-size: 36px; /* Set the font size of the links */
+}
+
+nav a:hover {
+  color: #0400ff; /* Change text color on hover */
 }
